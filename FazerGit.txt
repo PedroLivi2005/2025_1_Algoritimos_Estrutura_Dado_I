@@ -1,0 +1,20 @@
+git remote add origin https://github.com/PedroLivi2005/2025_1_Algoritimos_Estrutura_Dado_I.git
+git config --global user.email "pedro.livi2005@gmail.com"
+git config --global user.name "Pedro Livi"
+
+no terminal:
+
+git init 
+git add . 
+git commit -m "primeiro commit"
+git branch -M main 
+git remote add origin (junto com o link do repositório) 
+git push -u origin main 
+
+Se precisar clonar o repositório em outra máquina ou compartilhar com alguém, basta usar:
+git clone https://github.com/PedroLivi2005/2025_1_Algoritimos_Estrutura_Dado_I.git
+
+E sempre que fizer alterações, lembre-se do fluxo:
+- git add . (para adicionar os arquivos modificados)
+- git commit -m "Mensagem do commit" (para salvar as mudanças)
+- git push origin master (para enviar ao GitHub)

@@ -17,6 +17,7 @@ class Janela (QMainWindow):
         botao1.setStyleSheet('QPushButton {background-color:#0FB328;font:bold;font-size:20px}')
         botao1.clicked.connect(self.botao1_click)
         
+        
         botao2 = QPushButton('Botao 2 ', self)
         botao2.move(350, 200)
         botao2.resize(150, 80)
